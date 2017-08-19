@@ -108,7 +108,7 @@ To run docker for production,
 docker-compose build
 docker-compose up
 
-``
+```
 The app container will be listening on port 80. One can access locally at localhost:80.
 
 ## Misc Notes
