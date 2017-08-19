@@ -16,9 +16,9 @@ test('renders properly', t => {
   );
 
   t.truthy(wrapper.hasClass('single-company'));
-  t.is(wrapper.find('Link').first().prop('children'), company.lastName);
+  t.is(wrapper.find('Link').first().prop('children'), company.company);
   t.regex(wrapper.find('.first-name').first().text(), new RegExp(company.firstName));
-  t.is(wrapper.find('.company-desc').first().text(), company.address);
+  t.is(wrapper.find('.company-desc').first().text(), company.lastName);
 });
 
 test('has correct props', t => {
