@@ -97,6 +97,20 @@ Index.js takes on the burden of client side rendering using the data provided fr
 #### modules
 Modules are the way of organising different domain-specific modules in the project. A typical module contains the following
 
+
+### Docker
+
+There is a production docker configuration.
+
+To run docker for production,
+
+```
+docker-compose build
+docker-compose up
+
+```
+
+
 ## Misc Notes
 
 ### Importing Assets
