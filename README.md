@@ -1,6 +1,6 @@
-##Getting Started
+## Getting Started
 
-**Note : Please ensure that MongoDB is running.** Also, `npm3` is required to install dependencies properly and node version is 6.9.
+**Note : Please ensure that MongoDB is running.** Also, `npm3` is required to install dependencies properly and Node version is 6.9.
 
 ## Available Commands
 

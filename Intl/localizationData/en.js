@@ -7,7 +7,7 @@ export default {
     twitterMessage: 'I am on Twitter!',
     deleteCompany: 'Delete Company',
     createNewCompany: 'Create a new Company',
-    firstName: 'First\'s Name',
+    firstName: 'First Name',
     lastName: 'Last Name',
     address: 'Company Address',
     company: 'Company Name',
