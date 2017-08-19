@@ -1,31 +1,16 @@
 export default {
   locale: 'en',
   messages: {
-    siteTitle: 'MERN Starter Blog',
-    addPost: 'Add Post',
+    siteTitle: 'Information Form',
+    addCompany: 'Add Company',
     switchLanguage: 'Switch Language',
-    twitterMessage: 'We are on Twitter',
-    by: 'By',
-    deletePost: 'Delete Post',
-    createNewPost: 'Create new post',
-    authorName: 'Author\'s Name',
-    postTitle: 'Post Title',
-    postContent: 'Post Content',
+    twitterMessage: 'I am on Twitter!',
+    deleteCompany: 'Delete Company',
+    createNewCompany: 'Create a new Company',
+    firstName: 'First\'s Name',
+    lastName: 'Last Name',
+    address: 'Company Address',
+    company: 'Company Name',
     submit: 'Submit',
-    comment: `user {name} {value, plural,
-    	  =0 {does not have any comments}
-    	  =1 {has # comment}
-    	  other {has # comments}
-    	}`,
-    HTMLComment: `user <b style='font-weight: bold'>{name} </b> {value, plural,
-    	  =0 {does not have <i style='font-style: italic'>any</i> comments}
-    	  =1 {has <i style='font-style: italic'>#</i> comment}
-    	  other {has <i style='font-style: italic'>#</i> comments}
-    	}`,
-    nestedDateComment: `user {name} {value, plural,
-    	  =0 {does not have any comments}
-    	  =1 {has # comment}
-    	  other {has # comments}
-    	} as of {date}`,
   },
 };
