@@ -14,7 +14,9 @@
     "build:server": "cross-env NODE_ENV=production webpack --config webpack.config.server.js",
     "clean": "rimraf dist",
     "clean-slate": "rimraf node_modules && npm install",
-    "lint": "eslint client server"
+    "lint": "eslint client server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "pre-commit": [
     "lint",
@@ -46,7 +48,8 @@
     "react-router": "^2.4.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "sanitize-html": "^1.11.4"
+    "sanitize-html": "^1.11.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ava": "^0.15.2",
@@ -145,5 +148,6 @@
       "text",
       "html"
     ]
-  }
+  },
+  "snyk": true
 }
